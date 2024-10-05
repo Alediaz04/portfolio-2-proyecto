@@ -1,0 +1,21 @@
+@font-face {
+    font-family: terri ;
+    src: url(fuente/Prociono/Prociono-Regular.ttf);
+}
+body{
+    font-family: terri;
+    width: 100%;
+    height: auto;
+    background-color: #1c1c1c;
+    background: radial-gradient(circle, #3C3C3C, #1C1C1C); /* Gradiente radial del centro hacia afuera */
+    color: #ffff;
+    
+}
+
+
+/* About Me */
+.point{ 
+    font-size: 30px;
+    font-weight: bolder;
+}
+
