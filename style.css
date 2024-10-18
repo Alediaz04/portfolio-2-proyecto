@@ -98,6 +98,15 @@ button:hover {
     padding: 20px;
 
 }
+.frase{
+    display: flex;
+    justify-content: center;
+
+}
+.aboutme{
+    display: flex;
+    justify-content: space-between;
+}
 .point{ 
     font-size: 30px;
     font-weight: bolder;
@@ -129,4 +138,5 @@ button:hover {
     flex-direction: row;
     margin: 10px;
 }
+
 
