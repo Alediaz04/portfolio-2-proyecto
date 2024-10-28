@@ -3,7 +3,7 @@
     src: url(fuente/Prociono/Prociono-Regular.ttf);
 }
 body{
-    font-family: terri;
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     height: auto;
     background-color: #1c1c1c;
@@ -25,6 +25,7 @@ header{
     font-weight: 900;
     color: #ffff;
     font-size: 18px;
+    margin-left: 30px;
 }
 .nav{   
     display: flex;
@@ -33,8 +34,6 @@ header{
     z-index: 10;
     padding-top: 35px;
     width: 520px;
-    
-
 }
 .link{
     width: 104px;
@@ -79,7 +78,7 @@ header{
 }
 
 .title-btn button {
-    background: linear-gradient(45deg, #942700, #ffcc00); /* Degradado de Coral a Azul */
+    background: linear-gradient(45deg, #942700, #ffcc00); 
     width: 250px;
     height: 80px;
     border: none;
@@ -144,17 +143,45 @@ header{
 }
 .about-tittle{
     width: 900px;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 .about-text{
     font-size: 60px;
 }
 .texto{
-    font-size: 18px;
+    font-size: 20px;
 }
 .point{ 
     font-size: 30px;
     font-weight: bolder;
+}
+.btns-about{
+    margin-top: 20px;
+    width: 900px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-about{
+    background: linear-gradient(45deg, #942700, #ffcc00); 
+    width: 200px;
+    border: none;
+    border-radius: 5%;
+    color: #ffff;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+.btn-about:hover{
+    background: linear-gradient(45deg, #ffcc00, #942700); 
+}
+.color-num{
+    font-size: 22px;
+    font-weight: 800;
+    color: #ffcc00;
+}
+.posdata{
+    text-align: center;
+    font-size: 30px;
 }
 
 /* skills */
