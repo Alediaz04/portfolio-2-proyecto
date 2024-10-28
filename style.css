@@ -146,6 +146,7 @@ header{
     margin-right: 80px;
 }
 .about-text{
+    filter: drop-shadow(1px 1px 3px  #ffcc00);
     font-size: 60px;
 }
 .texto{
@@ -186,13 +187,31 @@ header{
 
 /* skills */
 .skills{
+    
     padding: 20px;
-    height: 200px;
+    height: 400px;
     width: 100%;
 }
-
+.my{
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 60px;
+    filter: drop-shadow(1px 1px 3px  #ffcc00);
+}
+.width-img{
+    width: 160px;
+    transition: 0.3s ease;
+}
 .img-skills{
-    width: 100px;
+    width: 140px;
+}
+.img-skills:hover{
+   scale: 1.2;
+}
+.div-skills{
+    display: flex;
+    justify-content: space-around;
+
 }
 /* Proyectos */
 .projects{
