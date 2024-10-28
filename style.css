@@ -51,7 +51,7 @@ header{
 }
 /* home */
 .home{
-    height: 900px;
+    height: 915px;
     display: flex;
     justify-content: space-between;
     padding: 0px 10px 0px 90px;
@@ -74,9 +74,7 @@ header{
 .imgperfil img{
     width: 900px;
     height: 900px;
-    padding-right: 0px;
     filter: drop-shadow(1px 1px 10px #ffcc00);
-    
 
 }
 
@@ -101,6 +99,8 @@ header{
     color: #ffff;
     font-weight: 500;
 }
+
+
 /* About Me */
 
 .about{
@@ -112,11 +112,45 @@ header{
 .frase{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+    
 
+}
+.frase h1{
+    width: 800px;
+    text-align: center;
+    font-size: 50px;
 }
 .aboutme{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 60px;
+
+    
+}
+.about-img{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 60px;
+    
+    
+}
+.about-img img{
+    width: 600px;
+    border-radius: 10%;
+    filter: opacity(80%);
+    filter: drop-shadow(1px 1px 5px);
+    
+}
+.about-tittle{
+    width: 900px;
+    margin-right: 100px;
+}
+.about-text{
+    font-size: 60px;
+}
+.texto{
+    font-size: 18px;
 }
 .point{ 
     font-size: 30px;
