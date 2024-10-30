@@ -92,7 +92,7 @@ header{
 
 .btn-home:hover {
     background: linear-gradient(45deg,  #ffcc00,#942700);
-    scale: 1.2;
+    scale: 1.1;
 }
 .btn-home a{
     text-decoration: none;
@@ -217,6 +217,7 @@ header{
 }
 /* Proyectos */
 .projects{
+    display: none;
     width: 100%;
     height: 800px;
     background-color: #3C3C3C;
@@ -227,32 +228,62 @@ header{
 
 /* contacto */
 .footer{
+    
     height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
+.footer div{
+    width: 300px;
+}
+.contact-footer{
+    text-align: center;
+}
 .icon-contac{
     font-size: 18px;
 }
-
-.btn-contac{
-    width: 200px;
-    height: 60px;
+.btn-footer{
+    text-align: center;
 }
-.btn-contac a{
+.btn-contact{
+    background: linear-gradient(45deg, #942700, #ffcc00); 
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn-contact:hover {
+    scale: 1.2;
+    background: linear-gradient(45deg, #ffcc00, #942700); 
+    
+}
+
+.btn-contact a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
 }
 .icons-footer{
     display: flex;
-    flex-direction: column;
-    
+    justify-content: space-between;
 }
 .icono{
-    font-size: 28px;
+    font-size: 38px;
     padding-top: 10px;
+    
+    transition: 0.3s ease;
+}
+
+.icono:hover{
+    color: #ffcc00;
+    scale: 1.2;
 }
 
 
