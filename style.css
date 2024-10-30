@@ -220,15 +220,26 @@ header{
     height: 800px;
     width: 100%;
 }
+
+
 /* contacto */
 .footer{
-    margin: 10px;
-    height: 100px;
+    margin-top: 20px;
+    height: 150px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin: 10px;
+    justify-content: space-around;
 }
+
+.btn-contac{
+    width: 200px;
+    height: 60px;
+}
+.btn-contac a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons-footer{}
+
 
 
